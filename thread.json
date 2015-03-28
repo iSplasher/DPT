@@ -1,0 +1,623 @@
+{
+  "posts": [
+    {
+      "images": 4,
+      "time": 1427378400,
+      "name": "Anonymous",
+      "ext": ".png",
+      "tim": 1427378400325,
+      "tn_h": 205,
+      "bumplimit": 0,
+      "com": "Previous thread at <a href=\"/g/thread/47196278#p47196278\" class=\"quotelink\">&gt;&gt;47196278</a><br><br>What are you working on, /g/?",
+      "now": "03/26/15(Thu)10:00:00",
+      "replies": 70,
+      "tn_w": 249,
+      "semantic_url": "dpt-daily-programming-thread",
+      "imagelimit": 0,
+      "resto": 0,
+      "fsize": 50672,
+      "h": 612,
+      "filename": "1426470916647",
+      "unique_ips": 31,
+      "w": 744,
+      "md5": "m/mKlzll9JfkvEv68sDguA==",
+      "sub": "/dpt/ - Daily Programming Thread",
+      "no": 47206807
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427378468,
+      "resto": 47206807,
+      "com": "Is Microsoft Virtual Academy actually good, or is it just a feelgood thing that people who don&#039;t know anything about computers come out of saying &quot;I know programming!&quot;<br><br>I want to learn C# and I&#039;m an auditory learner, so if it&#039;s actually good, it&#039;s a godsend.",
+      "now": "03/26/15(Thu)10:01:08",
+      "no": 47206814
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427378702,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206814\" class=\"quotelink\">&gt;&gt;47206814</a><br>I found it very useful for learning C# without having much of a programming background. <br>I doubt MVA will turn you into a coding god. And I get the impression that it&#039;s trying to take itself a bit too seriously with the XP you earn and awards and shit.",
+      "now": "03/26/15(Thu)10:05:02",
+      "no": 47206847
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427378821,
+      "resto": 47206807,
+      "com": "What GUI toolkit does Windows &quot;use&quot;? If you wanted to create software with a GUI, what would you use to achieve that native Windows look?",
+      "now": "03/26/15(Thu)10:07:01",
+      "no": 47206865
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427378975,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206847\" class=\"quotelink\">&gt;&gt;47206847</a><br>Thanks. What&#039;s a good step after that? Ultimately I want to use Unity or Monogame to make a turn-based strategy game. But I think I should learn the language, its conventions, and a bit of basic programming before I jump headlong into using an additional library and trying to organize a game.",
+      "now": "03/26/15(Thu)10:09:35",
+      "no": 47206887
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427379142,
+      "resto": 47206807,
+      "com": "Trying to figure out a good way to refactor my parser<br><br>Right now it&#039;s a clusterfuck of <pre class=\"prettyprint\">if peek().tokentype == OP</pre> etc. and it gets nested really fucking deeply",
+      "now": "03/26/15(Thu)10:12:22",
+      "no": 47206919
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427379215,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206919\" class=\"quotelink\">&gt;&gt;47206919</a><br>Can you just use a switch case? I&#039;m not sure what you&#039;re trying to do.",
+      "now": "03/26/15(Thu)10:13:35",
+      "no": 47206931
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427379329,
+      "resto": 47206807,
+      "com": "Has anyone here signed up to Googles code jam?<br><br>Will you guys do it? Would be kind of fun to have a thread about it when the first round begins.",
+      "now": "03/26/15(Thu)10:15:29",
+      "no": 47206956
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427379376,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206931\" class=\"quotelink\">&gt;&gt;47206931</a><br>That works at the top level but then if the next token is an identifier for example I need to check what the token after that is to determine if it&#039;s a function declaration, a function call, a variable declaration, etc.",
+      "now": "03/26/15(Thu)10:16:16",
+      "no": 47206967
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427379519,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206967\" class=\"quotelink\">&gt;&gt;47206967</a><br>Same anon who suggested the switch case. What about another inside each case of the original? How bad of an idea is that?<br><br>I&#039;m very new to programming.",
+      "now": "03/26/15(Thu)10:18:39",
+      "no": 47206995
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427379539,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206887\" class=\"quotelink\">&gt;&gt;47206887</a><br><span class=\"quote\">&gt;What&#039;s a good step after that?</span><br>Personally I just google shit and watch youtube videos. Probably the wrong way to go about it.",
+      "now": "03/26/15(Thu)10:18:59",
+      "no": 47206999
+    },
+    {
+      "name": "Anonymous",
+      "no": 47207101,
+      "time": 1427380154,
+      "resto": 47206807,
+      "fsize": 1535024,
+      "ext": ".png",
+      "filename": "Untitled",
+      "h": 768,
+      "tim": 1427380154754,
+      "tn_h": 70,
+      "w": 1366,
+      "md5": "mb1AKk8VzwBAJhttanbBvQ==",
+      "com": "we programmer now",
+      "now": "03/26/15(Thu)10:29:14",
+      "tn_w": 125
+    },
+    {
+      "name": "Anonymous",
+      "no": 47207111,
+      "time": 1427380218,
+      "resto": 47206807,
+      "fsize": 309123,
+      "ext": ".png",
+      "filename": "g1.4\u03b5",
+      "h": 1080,
+      "tim": 1427380218244,
+      "tn_h": 70,
+      "w": 1920,
+      "md5": "4dQHBjawbhF0TAMs2v65eA==",
+      "com": "Posting.",
+      "now": "03/26/15(Thu)10:30:18",
+      "tn_w": 125
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427380247,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206995\" class=\"quotelink\">&gt;&gt;47206995</a><br>The problem is that the structure for a function definition looks something like this<br><br><pre class=\"prettyprint\">identifier ( arglist ) identifierlist { Expressions }<br></pre><br>So the code inside parseIdentifier is something like<br><pre class=\"prettyprint\">if peek.val == &#039;(&#039; {<br>    parseArglist()<br>    if peek.val == &#039;)&#039; {<br>        if peek.type == identifier {<br>            parseIdList()<br>        }<br>        if peek.val == &#039;{&#039; {<br>            while peek.val != &#039;}&#039; {<br>                parseExpression()<br>            }<br>            return astNode //containing all the info about the function and it&#039;s body<br>        } else {<br>            //error<br>        }<br>    } else {<br>        //error<br>    }<br>} else {<br>     //error<br>}</pre><br>and this isn&#039;t the full code, there&#039;s also the case where there&#039;s an identifier after an identifier (like when you declare a variable, i int for example.<br><br>So the problem isn&#039;t that there is a lot of branches on one conditional statement, but rather that there is long chains of conditions leading to these deeply nested if statements.",
+      "now": "03/26/15(Thu)10:30:47",
+      "no": 47207114
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427380454,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207114\" class=\"quotelink\">&gt;&gt;47207114</a><br>Yeah, I have no idea how to make that any better aside from making sure you have everything in such an order that you&#039;re not repeating statements. Sorry. But good luck.",
+      "now": "03/26/15(Thu)10:34:14",
+      "no": 47207145
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427380593,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206919\" class=\"quotelink\">&gt;&gt;47206919</a><br>This might be something for you.<br>https://www.youtube.com/watch?v=Hxa<wbr>D_trXwRE<br>12:20 to 15:50",
+      "now": "03/26/15(Thu)10:36:33",
+      "no": 47207168
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427381194,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206995\" class=\"quotelink\">&gt;&gt;47206995</a><br>you could do that.",
+      "now": "03/26/15(Thu)10:46:34",
+      "no": 47207241
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427381680,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207168\" class=\"quotelink\">&gt;&gt;47207168</a><br>Since this is intended for the lexing part it&#039;s hard to apply it to the parsing, the problem with doing recursive calls like this is that ultimately this function should consume a huge amount of tokens and put them together in a single node. If I return a function for parsing the arglist from the function parsing the identifier, it loses track of the fact that this arglist is the arguments to the identifier before it.<br><br>However it could be useful because I could do a second pass like this which would return fewer tokens (like an arglist token) which could simplify it, but I&#039;m not really sure that&#039;s actually going to make the code simpler in the end.",
+      "now": "03/26/15(Thu)10:54:40",
+      "no": 47207318
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427381876,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206865\" class=\"quotelink\">&gt;&gt;47206865</a><br>The only perfect way to achieve the &quot;true&quot; Windows look is to use the native Windows controls. That involves the old C API, resource files and all that. Most GUI libraries (Qt, wxWidgets, etc.) tend to use their own controls that might look like the native, but aren&#039;t actually pixel-perfect and have their own warts and idiosyncrasies.",
+      "now": "03/26/15(Thu)10:57:56",
+      "no": 47207342
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427382959,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206865\" class=\"quotelink\">&gt;&gt;47206865</a><br>The root is the Win32 API, now called Windows API.  Although WinForms and WPF also make calls into the Win32 API I believe.<br><br>Dig into this and have fun.<br>https://msdn.microsoft.com/en-us/li<wbr>brary/windows/desktop/aa383743(v=vs<wbr>.85).aspx",
+      "now": "03/26/15(Thu)11:15:59",
+      "no": 47207489
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427383069,
+      "resto": 47206807,
+      "com": "What do you typically use, Signed or unsigned bools?",
+      "now": "03/26/15(Thu)11:17:49",
+      "no": 47207499
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427383115,
+      "resto": 47206807,
+      "com": "http://www.rust-lang.org/ Absolutely disgusting.",
+      "now": "03/26/15(Thu)11:18:35",
+      "no": 47207512
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427384213,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207512\" class=\"quotelink\">&gt;&gt;47207512</a><br>What&#039;s wrong? I like it.",
+      "now": "03/26/15(Thu)11:36:53",
+      "no": 47207704
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427384349,
+      "resto": 47206807,
+      "com": "Okay, /g/. I&#039;m learning to program and need some clarification on structs.<br><br>The example on the C# reference page is this:<br><br><pre class=\"prettyprint\">public struct Book<br>{<br>    public decimal price;<br>    public string title;<br>    public string author;<br>}</pre><br><br>I get what it does. It creates a new struct which holds three new variables. I just have a few questions.<br><br>1. When would I want to use a struct and when would I want to make a &quot;book&quot; class and have individual &quot;book&quot;s inherit from it?<br><br>2. Could I declare a default value for the variables while making the struct, as in:<br><br><pre class=\"prettyprint\">public struct Book<br>{<br>    public decimal price = 11.00;<br>    public string title = &quot;Book&quot;;<br>    public string author = &quot;Author&#039;s Name&quot;;<br>}</pre><br><br>and then later when I make a Book, change anything that happens to be different?",
+      "now": "03/26/15(Thu)11:39:09",
+      "no": 47207732
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427384538,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207111\" class=\"quotelink\">&gt;&gt;47207111</a><br>This is very interesting. Intimidating too.",
+      "now": "03/26/15(Thu)11:42:18",
+      "no": 47207763
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427384601,
+      "resto": 47206807,
+      "com": "Could you tell me what I am doing wrong in this pastebin and how I might fix it?<br><br>http://pastebin.com/cJqgnP7H<br><br>I asked in the last thread but it was almost at bump limit, so as expected it got no bites.",
+      "now": "03/26/15(Thu)11:43:21",
+      "no": 47207780
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427384724,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207342\" class=\"quotelink\">&gt;&gt;47207342</a><br><a href=\"#p47207489\" class=\"quotelink\">&gt;&gt;47207489</a><br><br>That&#039;s way more complicated and cryptic than I had expected (at least for me).<br>I now realize that using something cross-platform like Qt with the bindings for the language of my choice is way easier.",
+      "now": "03/26/15(Thu)11:45:24",
+      "no": 47207803
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427384782,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207732\" class=\"quotelink\">&gt;&gt;47207732</a><br>The only difference I&#039;m aware of between structs and classes (besides the fact that structs require certain values to be initialized I believe) is the pass by value behavior.  When you pass a struct by value it copies all the data and creates a new object, while a class passed the same way you still have the same object after being passed.<br><br>2) If you do that those are the values the struct will have when the object is created, although the values can be changed after creation.",
+      "now": "03/26/15(Thu)11:46:22",
+      "no": 47207809
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427384848,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207114\" class=\"quotelink\">&gt;&gt;47207114</a><br>Do error checks as opposed to if/else. That is, condition on the error condition, and not the normal condition.<br><br>If you adopt that style, it&#039;s also one of the few times a goto can be excused, but that&#039;s debatable.<br><br>it might be easier to just have a look at modern parser code and adapt the style.",
+      "now": "03/26/15(Thu)11:47:28",
+      "no": 47207818
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427385006,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207732\" class=\"quotelink\">&gt;&gt;47207732</a><br>1. There&#039;s no point in using structs in general outside of some specific use cases such as P/Invoke. Just use classes.<br><br>2. I was going to say yes, but it turns out you cannot create a parameterless constructors for classes (nor assign the values in the declaration) and thus the answer is no.<br><br>Btw, read up on properties.",
+      "now": "03/26/15(Thu)11:50:06",
+      "no": 47207863
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427385049,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207803\" class=\"quotelink\">&gt;&gt;47207803</a><br>Just use WinForms for native Windows GUI then, you don&#039;t have to have .NET backend code just because the UI code is .NET.  The look and feel is generally the same as your average Win32 GUI.  If WinForms is too complicated for you then you should just stick to command line programming.<br><br>https://msdn.microsoft.com/en-us/li<wbr>brary/system.windows.forms%28v=vs.1<wbr>10%29.aspx<br><br>There&#039;s also a mono forms project, not sure how faithful it is on other OSes than Windows.",
+      "now": "03/26/15(Thu)11:50:49",
+      "no": 47207871
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427385086,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207809\" class=\"quotelink\">&gt;&gt;47207809</a><br>Mind explaining what pass by value is?<br><a href=\"#p47207863\" class=\"quotelink\">&gt;&gt;47207863</a><br>Thanks. Will do.",
+      "now": "03/26/15(Thu)11:51:26",
+      "no": 47207880
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427385132,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207732\" class=\"quotelink\">&gt;&gt;47207732</a><br>1. Do you need functionality that is specifically bound to this type of data? Use a class. Avoid inheritance, favor composition. Avoid classes as long as you do not have a lot of global state.<br>https://msdn.microsoft.com/en-us/li<wbr>brary/ms173109.aspx<br>2. You can have struct constructors (https://msdn.microsoft.com/en-us/l<wbr>ibrary/aa288208%28v=vs.71%29.aspx) but no explicit default values. Specific default values are generally considered bad style, especially for &quot;data only&quot;, since using them gets rid of quite a bit of flexibility because it is not the responsibility of the data holder to decide which values it should hold.<br>The default values of structs are generally the default values of the types you are using, which are: <br>https://msdn.microsoft.com/en-us/li<wbr>brary/83fhsxwc.aspx<br>Struct members are initialized to their default as well and all object types are pointers in C# so those are presumably initialized to null.",
+      "now": "03/26/15(Thu)11:52:12",
+      "no": 47207891
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427385304,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207809\" class=\"quotelink\">&gt;&gt;47207809</a><br><a href=\"#p47207880\" class=\"quotelink\">&gt;&gt;47207880</a><br><span class=\"quote\">&gt;The only difference I&#039;m aware of between structs and classes (besides the fact that structs require certain values to be initialized I believe) is the pass by value behavior.</span><br>Both objects and structs are passed by value. The only difference is that all objects are essentially safe pointers.<br>http://stackoverflow.com/questions/<wbr>373419/whats-the-difference-between<wbr>-passing-by-reference-vs-passing-by<wbr>-value",
+      "now": "03/26/15(Thu)11:55:04",
+      "no": 47207927
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427385679,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207880\" class=\"quotelink\">&gt;&gt;47207880</a><br>There&#039;s probably millions of adequate explanations so I won&#039;t be redundant, but suffice it to say it&#039;s the difference between using the ref keyword in C# or not.  <br><br>If you pass a struct by value to a function, changes made to the corresponding parameter variable inside the function have no effect outside the function because it creates a new object and copies the data into it when you call the function.  If you change a class object inside a function, the changes will be reflected outside the function because they are operating on the same object (unless you reassign the parameter variable to another object in the function)<br><a href=\"#p47207927\" class=\"quotelink\">&gt;&gt;47207927</a><br>I never said structs/objects weren&#039;t both pass by value, just that they have different behavior when being passed by value.  Structs are copied into a new object after being passed into a function while classes reference the same (unless reassigned)",
+      "now": "03/26/15(Thu)12:01:19",
+      "no": 47208000
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427385901,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208000\" class=\"quotelink\">&gt;&gt;47208000</a><br>And I never said that your statement was incorrect, I was just adding something to your statement.<br>What&#039;s often confusing when researching this kind of stuff is that the word &quot;reference&quot; is often used terribly incorrectly, just to warn the person that originally asked the question.",
+      "now": "03/26/15(Thu)12:05:01",
+      "no": 47208032
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427386202,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207111\" class=\"quotelink\">&gt;&gt;47207111</a><br>rollin",
+      "now": "03/26/15(Thu)12:10:02",
+      "no": 47208090
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427386256,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206887\" class=\"quotelink\">&gt;&gt;47206887</a><br>codecademy.com",
+      "now": "03/26/15(Thu)12:10:56",
+      "no": 47208099
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427386272,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207732\" class=\"quotelink\">&gt;&gt;47207732</a><br><a href=\"#p47207863\" class=\"quotelink\">&gt;&gt;47207863</a><br><span class=\"quote\">&gt;There&#039;s no point in using structs in general outside of some specific use cases such as P/Invoke. Just use classes.</span><br><br>Depends on the use case.<br><br>Classes are going to be slower than structs in general, e.g. there was a 10x difference here.<br><br>https://nprogramming.wordpress.com/<wbr>2010/06/01/c-performance-class-vs-s<wbr>truct/<br><br>Though take note that when they tried to use OOP features (in this case interfaces) with structs, it slowed down again, so it&#039;s probably not worth doing.<br><br>Anyway if a programmer were worried about performance they would put the performance-critical sections in C and import them into C#.",
+      "now": "03/26/15(Thu)12:11:12",
+      "no": 47208103
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427386281,
+      "resto": 47206807,
+      "com": "What do you guys think about the somewhat emerging notion that HTML/CSS/JS is used as a frontend, possibly with a bundled WebKit browser, and the backend written in whatever language you prefer. It seems to solve quite a few problems regarding cross-platform GUI toolkits and consistency.",
+      "now": "03/26/15(Thu)12:11:21",
+      "no": 47208107
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427386336,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207111\" class=\"quotelink\">&gt;&gt;47207111</a><br>roll",
+      "now": "03/26/15(Thu)12:12:16",
+      "no": 47208117
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427386357,
+      "resto": 47206807,
+      "com": "<span class=\"quote\">&gt;drink 2-3 cups of coffee a day because programming</span><br><span class=\"quote\">&gt;fatigued as fuck because coffee</span><br><span class=\"quote\">&gt;can&#039;t be arsed to lift</span><br><span class=\"quote\">&gt;body deteriorating</span><br>do you even lift, /dpt/?",
+      "now": "03/26/15(Thu)12:12:37",
+      "no": 47208119
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427386383,
+      "resto": 47206807,
+      "com": "what kind of data does 4chan use to finalize two images are the same?<br>like here : https://archive.moe/tv/statistics/i<wbr>mage-reposts/<br>How does it calculate the number of reposts?<br>I want to know the php or sql part of it, if anyone knows about it",
+      "now": "03/26/15(Thu)12:13:03",
+      "no": 47208126
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427386464,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208126\" class=\"quotelink\">&gt;&gt;47208126</a><br>hash?",
+      "now": "03/26/15(Thu)12:14:24",
+      "no": 47208137
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427386515,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208137\" class=\"quotelink\">&gt;&gt;47208137</a><br><span class=\"quote\">&gt; php or sql part</span><br>What are you even saying. It&#039;s most likely some file hash.",
+      "now": "03/26/15(Thu)12:15:15",
+      "no": 47208143
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427386610,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208126\" class=\"quotelink\">&gt;&gt;47208126</a><br>probably the same one 2chan uses<br><br>their codebase is public, unlike 4chan",
+      "now": "03/26/15(Thu)12:16:50",
+      "no": 47208167
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427386816,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208126\" class=\"quotelink\">&gt;&gt;47208126</a><br>Some kind of hash of the image. MD5 or something",
+      "now": "03/26/15(Thu)12:20:16",
+      "no": 47208204
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427387103,
+      "resto": 47206807,
+      "com": "trying to do some web scraping for a mobile website i wanted to make. the problem is that there arent really any unique identifiers in the source code that i can use to pull the right data, so i might just give up early.",
+      "now": "03/26/15(Thu)12:25:03",
+      "no": 47208252
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427387150,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208143\" class=\"quotelink\">&gt;&gt;47208143</a><br>i meant if i were to implement it, how should i do it?<br>for example, i have a database of images and i need to see for each image how many duplicates exist",
+      "now": "03/26/15(Thu)12:25:50",
+      "no": 47208267
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427387224,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208252\" class=\"quotelink\">&gt;&gt;47208252</a><br>You can use some static XPath (ugly).<br><br><a href=\"#p47208267\" class=\"quotelink\">&gt;&gt;47208267</a><br>You create a md5 hash for each image, store it in the database. When someone wants to check how many duplicates there are you create the md5 hash of the new image and then do a lookup for matching entries and spit out the results.",
+      "now": "03/26/15(Thu)12:27:04",
+      "no": 47208282
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427387327,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208282\" class=\"quotelink\">&gt;&gt;47208282</a><br>thanks",
+      "now": "03/26/15(Thu)12:28:47",
+      "no": 47208296
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427387570,
+      "resto": 47206807,
+      "com": "If you guys haven&#039;t seen this yet: http://gogs.io/<br><br>Pretty cool if you want to play around with your own minimal Github platform. I like that it&#039;s a single, static binary. Of course you could always grab some private repos from BitBucket (support for git and hg) and use GitHub for your public stuff.",
+      "now": "03/26/15(Thu)12:32:50",
+      "no": 47208331
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427387752,
+      "resto": 47206807,
+      "com": "Is this the best way to do FizzBuzz in C# console?<br><br><pre class=\"prettyprint\">using System;<br>using System.Collections.Generic;<br>using System.Linq;<br>using System.Text;<br>using System.Threading.Tasks;<br><br>namespace FizzBuzz<br>{<br>    class Program<br>    {<br>        static void Main(string[] args)<br>        {<br>            int number;<br>            for (number = 1; number &lt;= 100; number++)<br>            {<br>                Console.Write (number.ToString() + &quot; &quot;);<br>                if (number % 3 == 0)<br>                {<br>                    Console.Write(&quot;Fizz&quot;);<br>                }<br>                if (number % 5 == 0)<br>                {<br>                    Console.Write(&quot;Buzz&quot;);<br>                }<br>                Console.WriteLine();<br>            }<br>            Console.ReadKey();<br>        }<br>    }<br>}</pre>",
+      "now": "03/26/15(Thu)12:35:52",
+      "no": 47208365
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427387846,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208365\" class=\"quotelink\">&gt;&gt;47208365</a><br><span class=\"quote\">&gt;reading comprehension</span>",
+      "now": "03/26/15(Thu)12:37:26",
+      "no": 47208389
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427387945,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208365\" class=\"quotelink\">&gt;&gt;47208365</a><br><span class=\"quote\">&gt;tries to &quot;optimize&quot; fizzbuzz</span><br><span class=\"quote\">&gt;prints up to 4 times per number</span>",
+      "now": "03/26/15(Thu)12:39:05",
+      "no": 47208405
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427387948,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208389\" class=\"quotelink\">&gt;&gt;47208389</a><br><span class=\"quote\">&gt;implying I&#039;m not doing this from memory of what was supposed to be done based on remembering a thread I saw on /g/ over a year ago</span><br>Guess I&#039;ll Google it.",
+      "now": "03/26/15(Thu)12:39:08",
+      "no": 47208407
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427387967,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207101\" class=\"quotelink\">&gt;&gt;47207101</a><br>source?",
+      "now": "03/26/15(Thu)12:39:27",
+      "no": 47208409
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427388066,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208405\" class=\"quotelink\">&gt;&gt;47208405</a><br>I started programming literally today. Forgive me. It seemed better than having &quot;FizzBuzz&quot; be its own conditional and doing &quot;if (number % 3 == 0 &amp;&amp; number % 5 != 0)&quot; for the first one.<br><a href=\"#p47208409\" class=\"quotelink\">&gt;&gt;47208409</a><br>For what? The Grimes wallpaper? I just Googled &quot;Grimes wallpaper&quot; and it was in the results.",
+      "now": "03/26/15(Thu)12:41:06",
+      "no": 47208433
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427388083,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208407\" class=\"quotelink\">&gt;&gt;47208407</a><br>If you need to remember how to program fucking fizzbuzz I have bad news for you buddy. It&#039;s fucking conditionals and modulo, how hard can that possibly be.",
+      "now": "03/26/15(Thu)12:41:23",
+      "no": 47208440
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427388163,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208440\" class=\"quotelink\">&gt;&gt;47208440</a><br>see<br><a href=\"#p47208433\" class=\"quotelink\">&gt;&gt;47208433</a><br><span class=\"quote\">&gt;I started programming literally today.</span><br>Over a year ago I saw a discussion of what the challenge was. Today I decided to try to do it after learning the very most basic logic of programming.",
+      "now": "03/26/15(Thu)12:42:43",
+      "no": 47208448
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427388301,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208448\" class=\"quotelink\">&gt;&gt;47208448</a><br>We have fizzbuzz threads like every day. <br>We have mastered fizzbuzz in all shapes.<br>We have BECOME the fizzbuzz.",
+      "now": "03/26/15(Thu)12:45:01",
+      "no": 47208466
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427388326,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208448\" class=\"quotelink\">&gt;&gt;47208448</a><br>Ok, didn&#039;t know that. That looks good, there&#039;s not much to optimize, except removing the useless imports maybe -- but I&#039;m no C# programmer.",
+      "now": "03/26/15(Thu)12:45:26",
+      "no": 47208472
+    },
+    {
+      "name": "Anonymous",
+      "no": 47208477,
+      "time": 1427388365,
+      "resto": 47206807,
+      "fsize": 258247,
+      "ext": ".gif",
+      "filename": "1415507902045",
+      "h": 459,
+      "tim": 1427388365511,
+      "tn_h": 125,
+      "w": 450,
+      "md5": "4ml7En6TJTIvlFcHky2Y8w==",
+      "com": "Anyone know how important the math is that is associated with data structures for things like job interviews? I&#039;m in CC about to transfer but I feel like my data structures course was shit. We didn&#039;t do much of the math that I think is there in other courses at other universities... I bought the Intro to Algos book and thumbing through it I see that it&#039;s pretty math-heavy.<br><br>I&#039;m taking discrete math next quarter and I&#039;m hoping that will fill in some of the gaps but.. I&#039;m still worried.",
+      "now": "03/26/15(Thu)12:46:05",
+      "tn_w": 122
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427388398,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208433\" class=\"quotelink\">&gt;&gt;47208433</a><br><span class=\"quote\">&gt;It seemed better than having &quot;FizzBuzz&quot; be its own conditional and doing &quot;if (number % 3 == 0 &amp;&amp; number % 5 != 0)&quot; for the first one.</span><br>generally its better to reduce occurrences of modulo, comparisons and conditionals, but in this case you are not strictly adhering to the specifications since you&#039;re printing numbers with a trailing space, and in the most common version of fizzbuzz the number isn&#039;t supposed to be printed out together with the text.<br><br>as a small exercise you could try building a string your way and then print the entire output in one go.",
+      "now": "03/26/15(Thu)12:46:38",
+      "no": 47208482
+    },
+    {
+      "name": "Anonymous",
+      "no": 47208506,
+      "time": 1427388524,
+      "resto": 47206807,
+      "fsize": 2181473,
+      "ext": ".gif",
+      "filename": "1424892483883",
+      "h": 454,
+      "tim": 1427388524405,
+      "tn_h": 97,
+      "w": 585,
+      "md5": "P5frfLz/qjU0udLlf1hC5Q==",
+      "now": "03/26/15(Thu)12:48:44",
+      "tn_w": 125
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427388880,
+      "resto": 47206807,
+      "com": "<a href=\"#p47207111\" class=\"quotelink\">&gt;&gt;47207111</a><br>Roll",
+      "now": "03/26/15(Thu)12:54:40",
+      "no": 47208558
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427389572,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208477\" class=\"quotelink\">&gt;&gt;47208477</a><br>Depends what you want to work for, graphics programming jobs will always ask for knowledge of vectors and linear algebra.",
+      "now": "03/26/15(Thu)13:06:12",
+      "no": 47208657
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427389836,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208506\" class=\"quotelink\">&gt;&gt;47208506</a><br><span class=\"quote\">&gt;all this abstract shit like an &quot;ALU&quot;</span><br><span class=\"quote\">&gt;not building it entirely in NAND gates</span>",
+      "now": "03/26/15(Thu)13:10:36",
+      "no": 47208717
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427390056,
+      "resto": 47206807,
+      "com": "<a href=\"#p47206807\" class=\"quotelink\">&gt;&gt;47206807</a><br>How does something like Google Docs work?<br><br>Does it use AJAX to update the server with the current content of the document when the user types a character and downloads the current state of the document constantly?",
+      "now": "03/26/15(Thu)13:14:16",
+      "no": 47208765
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427390876,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208765\" class=\"quotelink\">&gt;&gt;47208765</a><br>http://en.wikipedia.org/wiki/Single<wbr>-page_application<br><br>also webdev general",
+      "now": "03/26/15(Thu)13:27:56",
+      "no": 47208963
+    },
+    {
+      "name": "Anonymous",
+      "time": 1427392045,
+      "resto": 47206807,
+      "com": "<a href=\"#p47208717\" class=\"quotelink\">&gt;&gt;47208717</a><br><span class=\"quote\">&gt;not building your NAND gates yourself using transistors</span>",
+      "now": "03/26/15(Thu)13:47:25",
+      "no": 47209197
+    }
+  ]
+}
