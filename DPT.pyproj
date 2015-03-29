@@ -21,14 +21,24 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ui\gui.py" />
-    <Compile Include="ui\__init__.py">
+    <Compile Include="general\network\network.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="general\network\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="parser.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="general\gui.py" />
+    <Compile Include="general\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="main.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ui\" />
+    <Folder Include="general\" />
+    <Folder Include="general\network\" />
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
