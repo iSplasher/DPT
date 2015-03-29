@@ -1,6 +1,5 @@
 import json
 import requests
-from ui import gui
 
 class Get:
     def __init__(self):
@@ -26,7 +25,7 @@ class Get:
                         return str(y["no"])
 
 def get_posts():
-    "Returns a thread's posts"
+    "Returns thread number and posts ->  t_number, posts"
     board = "g"
     catalog_url = "https://a.4cdn.org/g/catalog.json"
     thread = "https://a.4cdn.org/"
@@ -45,4 +44,4 @@ def get_posts():
     #            }
     #        ]
     posts = content["posts"]
-    return posts
+    return t_number, posts

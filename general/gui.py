@@ -1,10 +1,12 @@
 from tkinter import *
 from tkinter import ttk
+from general.dptconst import threads_path, thread_numbers_file
+from time import sleep
 
-class Window(Frame):
-    def __init__(self, master=None):
-        Frame.__init__(self, master)
-        self.grid()
+#class Window(Frame):
+#    def __init__(self, master=None):
+#        Frame.__init__(self, master)
+#        self.grid()
 
 
 root = Tk()
@@ -16,8 +18,26 @@ window.add(left)
 window.add(right)
 window.grid(sticky=(N,S,E,W))
 
-thread_list = Listbox(left, height=30)
+
+#Threads
+def get_threads_numbers():
+    numbers = []
+    with open(thread_numbers_file, "r", encoding='utf-8') as file:
+        for line in file:
+            numbers[0] = str(line)
+    return numbers
+
+while True:
+    all_threads = get_threads_numbers()
+    
+    #need to use another thread to not make whole GUI sleep
+    #get_thread_wait()
+
+thread_numbers = StringVar(value=all_threads)
+thread_list = Listbox(left, listvariable=thread_numbers, height=30)
 thread_list.grid(column=0, row=0, sticky=(N,S))
+
+#Posts
 posts_view = Text(right, width=70, height=37)
 posts_view.grid(column=0, row=0, sticky=(N,S,E,W))
 
@@ -43,7 +63,7 @@ right.grid_columnconfigure(0, weight=15)
 
 
 
-for x in range(50):
-    x = "1254637" + str(x)
-    thread_list.insert('end', x)
+#for x in range(50):
+#    x = "1254637" + str(x)
+#    thread_list.insert('end', x)
 
