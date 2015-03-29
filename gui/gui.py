@@ -47,5 +47,3 @@ for x in range(50):
     x = "1254637" + str(x)
     thread_list.insert('end', x)
 
-#display = Text()
-root.mainloop()

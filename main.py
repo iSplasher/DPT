@@ -1,6 +1,7 @@
 import json
 import requests
 import re as regex
+import gui
 
 class Get:
     def __init__(self):
@@ -21,13 +22,11 @@ class Get:
             for y in threads:
                 #for z in y:
                     #if z["semantic_url"]:
-                if "sub" in y:
-                    if "dpt" in y["sub"]:
-                        #print(y["sub"])
-                        #print(y["no"])
+                if "semantic_url" in y:
+                    if "daily-programming-thread" in y["semantic_url"]:
+                        print(y["sub"])
+                        print(y["no"])
                         return str(y["no"])
-        else:
-            return None
 
 if __name__ == "__main__":
     board = "g"
@@ -51,3 +50,5 @@ if __name__ == "__main__":
     #            }
     #        ]
     posts = content["posts"]
+
+    gui.root.mainloop()
